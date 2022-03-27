@@ -1,0 +1,45 @@
+body{
+    background-color:yellow;
+    font-family:'Open Sans',sans-serif;
+    font-size:1.5em;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.message {
+    margin-left:200px;
+    width:500px;
+    height:400px;
+    display:flex;
+    margin-top:100px;
+    text-align:justify;
+    padding:30px;
+}
+
+
+img {
+    margin-top:100px;
+    margin-left:100px;
+    border-style:hidden;
+    border-radius:10px;
+}
+
+#goodluck{
+    color:yellow;
+    background-color:black;
+    font-size:2em;
+    width:fit-content;
+    height:fit-content;
+    text-align:center;
+    margin-left:100px;
+    margin-bottom:50px;
+    padding:25px;
+    border-style:hidden;
+    border-radius:10px;
+}
+
+#logo{
+    position:absolute;
+    top:-60px;
+}

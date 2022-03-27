@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("https://us.123rf.com/450wm/almagami/almagami1702/almagami170200070/71231777-green-classic-meander-seamless-pattern-greek-key-neutral-tileable-linear-vector-background-.jpg?ver=6");
+    color:bisque;
+    font-size:0.8em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.lista {
+    padding:10px;
+    background-color:darkgreen;
+    border-style: solid;
+    border-radius:10px;
+    width: 250px;
+    height:165px;
+}
+
+
+.corpo {
+    margin:50px 100px;
+    padding:10px;
+    background-color:darkgreen;
+    border-style: solid;
+    border-radius:10px;
+    width:fit-content;
+    text-align:center;
+    vertical-align:middle;
+    line-height:50px;
+    height:fit-content;
+    
+}
+
+img {
+    margin:50px 100px;
+    background-color:darkgreen;
+    border-style: solid;
+    border-radius:10px;
+    width:fit-content;
+}
+
+.moradia {
+    margin-top:50px;
+    text-align:center;
+}
