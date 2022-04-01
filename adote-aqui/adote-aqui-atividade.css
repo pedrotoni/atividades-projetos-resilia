@@ -1,0 +1,55 @@
+*{
+    background:yellowgreen;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.corpo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:row;
+    width:40%;
+    height:60px;
+    margin-top:10px;
+    line-height:20px;
+}
+
+.titulo{
+    border-width:3px;
+    border-style:solid;
+    border-radius:3px;
+    text-align:center;
+    line-height:50px;
+    padding:3px;
+    color:bisque;
+}
+
+.titulo:hover{
+    font-size:35px;
+}
+
+.home,.sobre,.contato{
+    font-size:1.25em;
+    background:crimson;
+    line-height:50px;
+    margin-left:20px;
+}
+
+@media (max-width:700px) {
+    .titulo {
+        display:none;
+    }
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+    }
+}
+
+.home:hover,.sobre:hover,.contato:hover{
+    color:bisque;
+}
